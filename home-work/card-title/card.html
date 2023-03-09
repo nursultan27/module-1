@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Card components" content="Card components">
+  <link rel="stylesheet" href="./card.css">
+  <title>Card componentd</title>
+</head>
+<body>
+  <!-- 1-ая карта -->          
+  <div class="cards">
+    <div class="card-title">
+      <p>Card title</p>
+      <!-- Пустой div -->
+      <a href="../img-component/index.html"></a>
+      <div class="card"></div>
+    </div>
+  <!-- 2-ая карта -->
+    <div class="card-list">
+      <div class="card">
+        <p class="">Development changes</p><br>
+        <p class="">General</p>
+        <ul>
+          <li>Change Tooltip paddings to 8px 12px (space between message and icon should be 8px)</li>
+          <li>Label font-weight should be changed from Normal to Medium</li>
+        </ul>
+        <p class="">Help mesagge</p>
+        <ul>
+          <li>Help mesagge change Tooltip background from Blue Dark to Blue Normal.</li>
+          <li>Change icon color next to Label  to Blue Normal</li>
+        </ul>
+        <p class="">Error message</p>
+        <ul>
+          <li>Error mesagge change Tooltip background from Red Dark to Red Normal.</li>
+          <li>Change icon color next to Label  to Red Normal</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="card-black">
+      <p class="title-text">Dev specs for PillButton</p><br>
+      <div class="card-text">
+        <b>Props:</b>
+        <p>icon - selection from our icons (optional)</p>
+        <br>
+        <b>Spacing:</b>
+        <p>Left/right padding 12px, top/bottom padding 6px, space between icon and text 4px</p>
+        <br>
+        <b>Position:</b>
+        <p>Vertical - 16px from the top of the parent container <br>
+          Horizontal - centered</p><br>
+        <b>Behavior:</b>(check the prototype)
+        <b></b>
+        <ol>
+          <li><b>Showing the button</b> <br> Animated from the top (slide down + opacity 0 to 100), animation length: 300ms, easing: out back</li>
+          <li><b>Clicking the button</b> <br> Opposite animation (slide up + opacity 100 to 0), animation length: 300ms, easing: in back</li>
+        </ol>
+      </div>
+    </div>
+    <div class="card-image">
+      <!-- фото -->
+      <img src="./images.jpeg" alt="foto" class="image"/>
+    </div>
+    <div class="card-code">
+      <div class="card">
+        <p>
+          <span class="orange">require </span><span class="green">"pluralsight"</span><br><br>
+          <span class="blue">number </span>= <span class="orange">0</span><br>
+          <span class="blue">regexp </span>= <span class="aqua">/[abc]/</span>
+          <br><br>
+          <span class="grey"># This is a comment example</span>
+          <br><br>
+          <span class="pink">class </span><span class="yellow">Person</span>
+          <br>
+          <span class="red">attr_accessor </span><span class="green">:name</span><br><br>
+          <span class="pink">def </span><span class="red">initialize</span>(<span class="blue">attributes </span>= <span class="orange">{ }</span> )
+          <br>
+          <span class="blue">@name </span> = <span class="blue">attributes</span>[<span class="green">:name</span>]
+          <br><span class="pink">end</span>
+          <br><br>
+          <span class="pink">def self.</span><span class="red">greet</span>
+          <br>
+          <span class="green">"hello"</span>
+          <br>
+          <span class="pink">end <br>end</span>
+          <br><br>
+          <span class="blue">person1</span> = <span class="yellow">Person.</span><span class="red">new</span>(<span class="green">:name</span> => <span class="green">"Ty"</span>) <br>
+          <span class="red">puts </span><span class="orange">#{</span><span class="yellow">Person</span>:: <span class="red">greet</span><span class="orange">} #{</span><span class="blue">person1</span><span class="span red">name</span><span class="orange">}/n</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

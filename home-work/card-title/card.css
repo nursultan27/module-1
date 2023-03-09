@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+.cards{
+  width: 100%;
+  /* background-color: rgb(169, 169, 169); */
+  /* border: 1px solid rgb(192, 192, 192); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.cards .card-title{
+  width: 690px;
+  height: 320px;
+  background-color: #fff;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 10px;
+}
+
+.cards .card-title p{
+  font-size: 16px;
+  font-family: 'Circular Pro' , sans-serif;
+  font-weight: 700;
+  color: #252A31;
+  padding: 24px;
+}
+
+.cards .card-title .card{
+  width: 638px;
+  height: 228px;
+  margin: 0 auto;
+  background: #00A58E;
+  opacity: 0.1;
+  padding: 8px;
+}
+
+.cards .card-list{
+  /* border: 1px solid black; */
+  padding: 8px;
+  background: #FFF4CD;
+  border-radius: 3px;
+}
+
+.cards .card-list .card{
+  width: 275px;
+  height: 415px;
+  background: #FFF4CD;
+  border-radius: 3px; 
+  line-height: 139.15%;
+}
+
+.cards .card-list .card p{
+  font-size: 14px;
+  font-family: 'Circular Pro', sans-serif;
+  font-weight: 700;
+  color: #252A31;
+}
+
+.cards .card-list .card ul li{
+  font-size: 14px;
+  font-family: 'Circular Pro', sans-serif;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.cards .card-black{
+  width: 554px;
+  height: 504px;
+  background: #252A31;
+  border-radius: 6px;
+}
+
+.cards .card-black .title-text{
+  font-size: 28px;
+  font-family: 'Circular Pro', sans-serif;
+  font-weight: 700;
+  color: white;
+  padding: 32px 32px 8px 32px;
+}
+
+.cards .card-black .card-text{
+  width: 490px;
+  height: 396px;
+  /* border: 1px solid white; */
+  margin: 0 auto;
+  color: white;
+}
+
+.cards .card-black .card-text b{
+  font-size: 16px;
+  font-family: 'Circular Pro', sans-serif;
+  font-weight: 700;
+  line-height: 22px;
+  color: white;
+}
+
+.cards .card-black .card-text p{
+  font-size: 16px;
+  font-family: 'Circular Pro', sans-serif;
+  font-weight: 100;
+  line-height: 22px;
+  color: white;
+}
+
+.cards .card-black .card-text ol li{
+  font-size: 16px;
+  font-family: 'Circular Pro', sans-serif;
+  font-weight: 100;
+  line-height: 22px;
+  color: white;
+}
+
+.cards .card-image{
+  width: 160px;
+  height: 160px;
+  background-image: url('./');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.cards .card-code{
+  width: 720px;
+  height: 468px;
+  background: #1E2429;
+  border-radius: 3px;
+  padding: 20px 130px 28px 38px;
+}
+
+.cards .card-code .card{
+  width: 552px;
+  height: 425px;
+}
+
+.cards .card-code .card p{
+  color: white;
+  font-family: 'Sono', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.cards .card-code .card p .orange{
+  color:#D99077;
+}
+
+.cards .card-code .card p .green{
+  color: #B5CC70;
+}
+
+.cards .card-code .card p .blue{
+  color: #8AC7E6;
+}
+
+.cards .card-code .card p .aqua{
+  color:#ABD9C6;
+}
+
+.cards .card-code .card p .grey{
+  color:#AAAAAA;
+}
+
+.cards .card-code .card p .pink{
+  color: #E695BD;
+}
+
+.cards .card-code .card p .yellow{
+  color: #FFCA80;
+}
+
+.cards .card-code .card p .red{
+  color:#F26D6D;
+}
+
